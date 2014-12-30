@@ -2,6 +2,7 @@ from jinja2 import Template
 import shutil
 import yaml
 import markdown
+import os
 
 from jinja2 import Environment, FileSystemLoader
 
@@ -13,27 +14,28 @@ env.filters.update({
     'markdown': lambda text: markdown.markdown(text)
 })
 
-with open('content/pages.yml') as f:
-    PAGES = yaml.load(f)
+class FileSystemContentLoader(object):
 
-with open('content/people.yml') as f:
-    LAB_MEMBERS = yaml.load(f)
+    def __init__(self, root):
+        self.root = root
 
-with open('content/projects.yml') as f:
-    PROJECTS = yaml.load(f)
+    def __getitem__(self, item):
+        with open(os.path.join(self.root, '{}.yml'.format(item))) as f:
+            return yaml.load(f)
 
-with open('content/publications.yml') as f:
-    PUBLICATIONS = yaml.load(f)
+CONTENT = FileSystemContentLoader('content')
+
+PAGES = CONTENT['pages']
 
 PAGE_CONTEXT = {
     'people.html': {
-        'lab_members': LAB_MEMBERS,
+        'lab_members': CONTENT['people'],
     },
     'research.html': {
-        'projects': PROJECTS,
+        'projects': CONTENT['projects'],
     },
     'publications.html': {
-        'publications': PUBLICATIONS,
+        'publications': CONTENT['publications'],
     }
 }
 
