@@ -13,7 +13,7 @@ env.filters.update({
     'markdown': lambda text: markdown.markdown(text)
 })
 
-with open('pages.yml') as f:
+with open('content/pages.yml') as f:
     PAGES = yaml.load(f)
 
 with open('content/people.yml') as f:
