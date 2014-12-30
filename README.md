@@ -1,6 +1,6 @@
 # Mattos Lab Site
 
-This is the repository for building the Mattos Lab site generator.
+Static site generator for the Mattos Lab site
 
 The idea is that you can edit some .yml files that contain the content
 and then run `python make.py`, and the finished html files, css, images, etc.
