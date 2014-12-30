@@ -1,0 +1,47 @@
+- name:  Wild Type HRas
+  id: project-1
+  content: |
+    1. Allosteric switch mechanism of intrinsic hydrolysis
+        - neutron crystalography to position hydrogen atoms in the active site
+        - QMMM to study path and energetics of the hydorlysis reaction
+        - capturing the transition state mimic of intrinsic hydrolysis
+    2. Allosteric switch mutants
+        - hydrolysis reaction rates
+        - crystal structures
+    3. Communication pathways between effector and allosteric lobes
+        - switch 1 to helix 5
+        - switch 2 to allosteric site
+    4. Multiple solvent crystal structures
+        - water analysis using DRoP
+
+
+- name: Ras Superfamily of Small GTPases
+  id: project-2
+  content: |
+    1. Allosteric switch mechanisms in members of the superfamily
+    2. MSCS of members of the Ras superfamily
+    3. Crystal structures of Rap, Ral, and Rit GTPases
+
+- short_name: Protein-Phospholipid Head Group Interactions
+  name: Ras Isoform-Specific Study of Protein-Phospholipid Head Group Interactions
+  id: project-3
+  content: |
+    This is some super sweet explanation of what
+    "Ras Isoform-Specific Study of Protein-Phospholipid Head Group Interactions"
+    means and how it applies to our lab. 
+
+- name: Ras in Complex with Binding Partners
+  id: project-4
+  content: |
+    1. Ras/Raf-RBD-CRD
+    2. K-Ras/CaM
+    3. K-Ras/small molecules
+
+
+- name: Ras Isoforms and their Oncogenic mutants
+  id: project-5
+  content: |
+    1. Structure
+    2. Hydrolysis rates
+    3. Confirmational states
+    4. Complexes with binding partners

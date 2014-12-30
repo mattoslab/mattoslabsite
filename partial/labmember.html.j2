@@ -1,0 +1,13 @@
+<div class="col-sm-4 col-md-3">
+  <div class="thumbnail">
+    {% if member.photo_src %}
+    <img src="static/images/students/{{ member.photo_src }}" alt="{{ member.name }}">
+    {% else %}
+    <img src="static/images/students/blank.png" alt="{{ member.name }}">
+    {% endif %}
+    <div class="caption">
+      <h3>{{ member.name }}</h3>
+      <p>{{ member.description }}</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+- title: Home
+  href: home.html
+  template: home.html.j2
+  title_pic: null
+- title: People
+  href: people.html
+  template: people.html.j2
+  title_pic: students_in_lab.png
+- title: Research
+  href: research.html
+  template: research.html.j2
+  title_pic: molecule.png
+- title: Publications
+  href: publications.html
+  template: publications.html.j2
+  title_pic: null

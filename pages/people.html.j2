@@ -1,0 +1,26 @@
+{% extends 'templates/base.html.j2' %}
+{% block content %}
+
+<div class="clearfix"></div>
+<h2>Principal Investigator</h2>
+
+{% with %}
+  {% set member = lab_members.pi %}
+  {% include 'partial/labmember.html.j2' %}
+{% endwith %}
+
+<div class="clearfix"></div>
+<h2>Graduate Students</h2>
+
+{% for member in lab_members.grad_students %}
+  {% include 'partial/labmember.html.j2' %}
+{% endfor %}
+
+<div class="clearfix"></div>
+<h2>Undergraduate Students</h2>
+
+{% for member in lab_members.undergrads %}
+  {% include 'partial/labmember.html.j2' %}
+{% endfor %}
+
+{% endblock %}

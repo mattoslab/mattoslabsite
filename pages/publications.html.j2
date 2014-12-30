@@ -1,0 +1,15 @@
+{% extends 'templates/base.html.j2' %}
+{% block content %}
+
+<h3>Publications</h3>
+<ul class="list-unstyled">
+{% for pub in publications -%}
+  <li>{{ pub.authors }}, {{ pub.title }}, <em>{{ pub.journal }}</em>, {{ pub.other_stuff }} ({{ pub.year }}).</li>
+{%- endfor %}
+</ul>
+
+<h3>External Links</h3>
+<a href="http://scholar.google.com/citations?sortby=pubdate&hl=en&user=KzmG7G8AAAAJ&view_op=list_works"
+  target="_blank">Google Scholar</a>
+
+{% endblock %}

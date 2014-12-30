@@ -1,0 +1,21 @@
+{% extends 'templates/base.html.j2' %}
+{% block content %}
+
+<div class="row">
+  <div class="col-md-3">
+    <ul class="nav nav-pills nav-stacked">
+      {% for project in projects -%}
+      <li><a href="#{{ project.id }}" data-toggle="pill">{{ project.short_name or project.name }}</a></li>
+      {%- endfor %}
+    </ul>
+  </div>
+  <div class="col-md-9 tab-content">
+    {% for project in projects %}
+    <div id="{{ project.id }}" class="tab-pane">
+      <h3>{{ project.name }}</h3>
+      {{ project.content|markdown }}
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}
