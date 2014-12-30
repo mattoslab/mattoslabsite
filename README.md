@@ -34,3 +34,11 @@ To build the site run
 ```bash
 $ python make.py
 ```
+
+To server the files (just locally to yourself) and test the website, run
+
+```bash
+$ python -m SimpleHTTPServer 4444
+```
+
+and navigate your browser to http://localhost:4444/build/home.html.
