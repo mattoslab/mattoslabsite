@@ -11,11 +11,11 @@
     <div class="page-content">
       <header>
         <div class="container">
+          {% if active_page.title_pic %}
+          <img class="pull-right title-pic" src="static/images/{{ active_page.title_pic }}"/>
+          {% endif %}
           <div class="page-header">
-            {% if active_page.title_pic %}
-            <img class="pull-right" src="static/images/{{ active_page.title_pic }}"/>
-            {% endif %}
-            <h1 class="northeastern">The Mattos Lab <small>{% block subheader %}{{ active_page.title }}{% endblock %}</small></h1>
+            <h1 class="northeastern">Mattos Lab <small>{% block subheader %}{{ active_page.title }}{% endblock %}</small></h1>
           </div>
         </div>
       </header>

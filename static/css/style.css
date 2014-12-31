@@ -6,6 +6,17 @@ body {
   color: #cb0013;
 }
 
+img.title-pic {
+  height: 93px;
+  margin: 3px 0;
+  border: 1px solid transparent;
+  border-radius: 15px;
+}
+
+.thumbnail {
+  height: 380px;
+}
+
 html, body {
   height: 100%;
 }

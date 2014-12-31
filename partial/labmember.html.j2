@@ -1,7 +1,7 @@
 <div class="col-md-3">
   <div class="thumbnail">
-    {% if member.photo_src %}
-    <img src="static/images/students/{{ member.photo_src }}" alt="{{ member.name }}">
+    {% if member.photo %}
+    <img src="static/images/students/{{ member.photo }}" alt="{{ member.name }}">
     {% else %}
     <img src="static/images/students/blank.png" alt="{{ member.name }}">
     {% endif %}

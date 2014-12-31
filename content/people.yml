@@ -1,12 +1,13 @@
 pi:
   name: Carla Mattos
-  photo_src: carla.png
+  photo: carla.jpg
   description: |
     *Principal Investigator*
 
 grad_students:
   - name: Tim Colussi
   - name: Hugo Guterres
+    photo: hugo.jpg
   - name: Christian Johnson
   - name: Ryan Knihtila
   - name: Kendra Marcus
@@ -17,5 +18,6 @@ grad_students:
 undergrads:
   - name: Patrick Donohue
   - name: Bakar Hassan
+    photo: bakar.jpg
   - name: Alvaro Lanao
   - name: Shores Salter
