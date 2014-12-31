@@ -8,36 +8,46 @@
     <link href="static/css/style.css" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <div class="container">
-        <div class="page-header">
-          {% if active_page.title_pic %}
-          <img class="pull-right" src="static/images/{{ active_page.title_pic }}"/>
-          {% endif %}
-          <h1>The Mattos Lab <small>{% block subheader %}{{ active_page.title }}{% endblock %}</small></h1>
+    <div class="page-content">
+      <header>
+        <div class="container">
+          <div class="page-header">
+            {% if active_page.title_pic %}
+            <img class="pull-right" src="static/images/{{ active_page.title_pic }}"/>
+            {% endif %}
+            <h1 class="northeastern">The Mattos Lab <small>{% block subheader %}{{ active_page.title }}{% endblock %}</small></h1>
+          </div>
         </div>
+      </header>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <ul class="nav navbar-nav">
+            {% for page in pages -%}
+            <li {% if active_page.href == page.href %}class="active"{% endif %}>
+              <a href="{{ page.href }}">{{ page.title }}</a>
+            </li>
+            {%- endfor %}
+          </ul>
+        </div>
+      </nav>
+      <div class="container">
+        {% block content %}
+        {% endblock %}
       </div>
-    </header>
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <ul class="nav navbar-nav">
-          {% for page in pages -%}
-          <li {% if active_page.href == page.href %}class="active"{% endif %}>
-            <a href="{{ page.href }}">{{ page.title }}</a>
-          </li>
-          {%- endfor %}
-        </ul>
-      </div>
-    </nav>
-    <div class="container">
-      {% block content %}
-      {% endblock %}
-    </div>
-    <div class="false-footer">
     </div>
     <footer>
       <div class="container">
-        contact info, etc.
+        <address class="northeastern col-md-3 pull-right">
+          <strong>Mattos Lab</strong><br/>
+          Northeastern University<br/>
+          111 Hurtig Hall
+        </address>
+        <address class="col-md-3 pull-right">
+          <strong>Email</strong>
+          <a href="mailto:c.mattos@neu.edu">c.mattos@neu.edu</a><br/>
+          <strong>Phone</strong>
+          <a href="tel:617.373.6166">617.373.6166</a>
+        </address>
       </div>
     </footer>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>

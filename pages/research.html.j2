@@ -3,6 +3,7 @@
 
 <div class="row">
   <div class="col-md-3">
+    <h2>Projects</h2>
     <ul class="nav nav-pills nav-stacked">
       {% for project in projects -%}
       <li><a href="#{{ project.id }}" data-toggle="pill">{{ project.short_name or project.name }}</a></li>

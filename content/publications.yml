@@ -1,6 +1,164 @@
-- authors: Mattos, C., and Ringe, D.
-  title: Multiple Binding Modes, In 3D QSAR
-  journal: Drug Design -- Theory, Methods, and Applications
-  other_stuff: (H. Kubinyi, ed.) ESCOM Science Publisher, Leiden
-  year: 1993
-- authors: Mattos, C.
+published:
+  - content: >
+      Mattos, C., and Ringe, D., Multiple Binding Modes,
+      In *3D QSAR in Drug Design -- Theory, Methods and Applications*,
+      (H. Kubinyi, ed.) ESCOM Science Publisher, Leiden (1993).
+  - content: >
+      Mattos, C., Rasmussen, B., Ding, X., Petsko, G. A., and Ringe, D.,
+      Analogous Inhibitors of Elastase Do Not Always Bind Analogously,
+      *Nature Struct. Biol.* **1**, 55-58 (1994).
+  - content: >
+      Mattos, C., Petsko, G. A., and Karplus, M.,
+      Analysis of Two-Residue Turns in Proteins,
+      *J. Mol. Biol.* **238**, 733-747 (1994).
+  - content: >
+      Mattos, C., Giammona, D., Petsko, G.A., and Ringe, D.,
+      Structural Analysis of the Active Site of Porcine Pancreatic Elastase
+      Based on the X-Ray Crystal Structure of Complexes with Trifluoroacetyl-Dipeptide-Anilide Inhibitors,
+      *Biochemistry* **34**, 3193-3203 (1995).
+  - content: >
+      Allen, K. N., Bellamacina, C. R., Ding, X., Jeffery, C. J., Mattos, C., Petsko, G. A., and Ringe, D.,
+      An Experimental Approach to Mapping the Binding Surfaces of Crystalline Proteins,
+      *J. Phys. Chem.* **100**, 2605-2611 (1996).
+  - content: >
+      Mattos, C. and Ringe D., Locating and Characterizing Binding Sites on Proteins,
+      *Nature Biotech.* **14**, 595-599 (1996).
+  - content: >
+      MacKerell Jr., A. D., Bashford, D., Bellott, M., Dunbrack Jr., R. L., Evanseck, J.,
+      Field, M. J., Fischer, S., Gao, J., Guo, H., Ha, S., Joseph, D., Kuchnir, L., Kuczera, K.,
+      Lau, F. T. K., Mattos, C., Michnick, S., Ngo, T., Nguyen, D. T., Prodhom, B., Reiher III, W. E.,
+      Roux, B., Schlenkrich, M., Smith, J., Stote, R., Straub, J., Watanabe, M., Wiorkiewicz-Kuczera, J., Yin, D., and Karplus, M.,
+      All-atom Empirical Potential for Molecular Modeling and Dynamics Studies of Proteins, *J. Phys. Chem. B*  **102**, 3586-3616 (1998).
+  - content: >
+      Ringe, D. and Mattos, C., Analysis of the Binding Surfaces of Proteins,
+      *Med. Res. Rev.* **19**, 321-331 (1999).
+  - content: >
+      Mattos C. and Ringe D.: Solvent Structure,
+      In *International Tables for Crystallography*.
+      (Rossman MG, Arnold E, Eds.) Kluwer Academic Publishers; **vol F**, 623-640 (2001).
+  - content: >
+      Mattos, C. and Ringe D., Proteins in Organic Solvents,
+      *Curr. Opin. Struct. Biol.* **11**, 761-764 (2001).
+  - content: >
+      Mattos, C., Protein-Water Interactions in a Dynamic World,
+      *Trends in Biochemical Sciences* **27**, 203-208 (2002).
+  - content: >
+      Buhrman, G., de Serrano, V., and Mattos, C., Organic Solvents Order the Dynamic Switch II in Ras Crystals,
+      *Structure* **11**, 747-751 (2003).
+  - content: >
+      Mattos, C., Cohen, J.D., Green, D.F., Tidor, B., and Karplus, M.,
+      X-ray Structural and Simulation Analysis of a Protein Mutant: The Value of a Combined Approach,
+      *Proteins: Structure, Function, and Bioinformatics* **55**, 733-742 (2004).
+  - content: >
+      Nicely, N., Kosak, J., de Serrano, V., and Mattos, C.,
+      Crystal Structures of Ral-GppNHp and Ral-GDP Reveal Two Binding Sites That Are Also Present in Ras and Rap,
+      *Structure*, **12**, 2025-2036 (2004).
+  - content: >
+      Buhrman, G., Parker, B., Sohn, J., Rudolph, J. and Mattos, C.,
+      Structural mechanism of oxidative regulation of the phosphatase Cdc25B via an intramolecular disulfide bond,
+      *Biochemistry,* **44**, 5307-5316 (2005).
+  - content: >
+      Mattos, C., Bellamacina, C., Peisach, E., Pereira, A., Vitkup, D., Petsko, G.A. and Ringe, D.,
+      Multiple Solvent Crystal Structures: Probing Binding Sites, Plasticity and Hydration,
+      *Journal of Molecular Biology,* **357**, 1471-1482 (2006).
+  - content: >
+      Feeney, B., Pop, C., Swartz, P., Mattos, C. and Clark, A.C.,
+      The Role of Loop Bundle Hydrogen Bonds in the Maturation and Activity of (Pro)caspase-3,
+      *Biochemistry,* **45**, 13249-13263 (2006).
+  - content: >
+      Ringe, D. and Mattos, C., Location of Binding Sites on Proteins by the Multiple Solvent Crystal Structure Method,
+      In *Fragment-based Approaches in Drug Discovery*, Methods and Principles in Medicinal Chemistry (Jahnke, W., Erlanson, D. A., Eds) Wiley-VCH;
+      **vol 34**, 67-88 (2006).
+  - content: >
+      Milam, S.L., Nicely, N.I., Feeney, B., Mattos, C., Clark, A.C., Rapid Folding and Unfolding of Apaf-1 CARD,
+      *Journal of Molecular Biology,* **369**, 290-304 (2007).
+  - content: >
+      Buhrman, G., Wink, G. and Mattos, C.,
+      Transformation efficiency of RasQ61 mutants linked to structural features of the switch regions in the presence of Raf,
+      *Structure*, **15**, 1618-1629 (2007).
+  - content: >
+      Mattos, C. and Clark, A. C., Minimizing frustration by folding in an aqueous environment,
+      *Archives of Biochemistry and Biophysics,* **469**, 118-131 (2008).
+  - content: >
+      Mattos, C. Removing the Barrier between Teaching in the Classroom and Research in the Laboratory,
+      *ASBMB Today*, May 2008, 17-19 (2008).
+  - content: >
+      Brenke, R., Kozakov, D., Chuang, G.-Y., Beglov, D., Hall, D., Landon, M. R., Mattos, C. and Vajda, S.,
+      Fragment-based identification of druggable “hot spots” of proteins using Fourier domain correlation techniques,
+      *Bioinformatics,* **25**, 621-627 (2009).
+  - content: >
+      Dechene, M., Wink, G., Smith, M., Swartz, P. and Mattos, C.,
+      Multiple Solvent Crystal Structures of Ribonuclease A: An Assessment of the Method,
+      *Proteins: Structure, Function and Bioinformatics,* **76**, 861-881 (2009).
+  - content: >
+      Walters, J., Pop, C., Scott, F.L., Drag, M., Swartz, P., Mattos, C., Salvesen, G.S., and Clark, A.C.,
+      A constitutively active and uninhibitable caspase-3 zymogen efficiently induces apoptosis,
+      *Biochemical Journal*, **424**, 335-345 (2009).
+  - content: >
+      Buhrman, G., Holzapfel, G., Fetics, S. and Mattos, C.,
+      Allosteric modulation of Ras positions Q61 for a direct role in catalysis,
+      *PNAS*, **107**, 4931-4936 (2010).
+  - content: >
+      Burhman, G., Kumar, S., Cirit, M., Haugh, J. M., and Mattos, C.
+      Allosteric modulation of Ras-GTP is linked to signal transduction through Raf kinase.
+      *Journal of Biological Chemistry*, **286**, 3323-3331 (2011).
+  - content: >
+      Walters, J., Swartz, P., Mattos, C. and Clark, A.C.,
+      Thermodynamic, enzymatic and structural effects of removing a salt bridge at the base of loop 4 in (pro)caspase-3,
+      *Archives of Biochemistry and Biophysics,* **508**, 31-38 (2011).
+  - content: >
+      Biswas, S., Buhrman, G., Gagnon, K., Mattos, C., Brown, B. and Maxwell, E.,
+      Comparative Analysis of the 15.5kD Box C/D snoRNP Core Protein in the Primitive Eukaryote Giardia lamblia Reveals Unique Structural and Functional Features,
+      *Biochemistry,* **50**, 2907-2918 (2011).
+  - content: >
+      Buhrman, G., O’Connor, C., Zerbe, B., Kearney, B. M., Napoleon, R., Kovrigina, E. A., Vajda, S., Kozakov, D., Kovrigin, E. L., and Mattos, C.,
+      Analysis of binding site hot spots on the surface of Ras GTPase,
+      *Journal of Molecular Biology,* **413**, 773-789 (2011).
+  - content: >
+      Mattos C. and Ringe D.: Solvent Structure, In *International Tables for Crystallography*, *Volume F*, second edition, Crystallography of Biological Macromolecules. (Eddy Arnold, Daniel M. Himmel, Michael G. Rossman MG, Arnold E, Eds.) Wiley and Sons, 623-640 (2012).
+  - content: >
+      Prior, I. A., Lewis, P. D., Mattos, C., A comprehensive survey of Ras mutations in cancer,
+      *Cancer Research*, **72**(10): 2457-2467 (2012).
+  - content: >
+      Gagnon, K. T., Biswas, S., Zhang, X., Brown II, B. A., Wollenzien, P., Mattos, C. and Maxwell, E. S.,
+      The structurally conserved Nop56/58 N-terminal domain facilitates archaeal Box C/D sRNP-guided methyltransferase activity,
+      *Journal of Biological Chemistry*, **287**(23), 19418-19428 (2012).
+  - content: >
+      Walters, J., Schipper, J. L., Swartz, P., Mattos, C., and Clark, A. C.,
+      Allosteric Modulation of Caspase-3 through Mutagenesis,
+      *Bioscience Reports*, **32**, 401-411 (2012).
+  - content: >
+      Holzapfel, G., Buhrman, G. and Mattos, C.,
+      Shift in the Equilibrium between On and Off States of the Allosteric Switch in Ras-GppNHp Affected by Small Molecules and Bulk Solvent Composition,
+      *Biochemistry,* **51**, 6114-6126 (2012).
+  - content: >
+      Nussinov, R., Tsai, C.-J. and Mattos, C.,
+      Pathway drug cocktail: targeting Ras signaling based on structural pathways,
+      *Trends in Molecular Medicine*, **19**(11), 695-704 (2013).
+  - content: >
+      Mattos, C., Johnson, M., White, H., Sears, D., Bailey, C., Bell, E.,
+      Introduction: Promoting concept driven teaching strategies
+      in Biochemistry and Molecular Biology, Biochemistry and Molecular Biology Education, 41(5), 287-288 (2013).
+  - content: >
+      Johnson, C. W. and Mattos, C., The allosteric switch and conformational states in Ras-GTP affected by small molecules,
+      in The Enzymes, Inhibitors of Ras Superfamily G-proteins, Editor Fuyu Tamanoi, Vol **33**, 42-67 (2013).
+  - content: >
+      Kearney, B. M., Johnson, C. W., Roberts, D. M., Swartz, P. and Mattos, C.,
+      DRoP: a water analysis program identifies Ras-GTP specific pathway of communication between membrane interacting regions and the active site,
+      *Journal of Molecular Biology,* **426**(3), 611-629 (2014).
+  - content: >
+      Fetics, S. K., Guterres, H., Kearney, B. M., Buhrman, G. Ma, B., Nussinov, R. and Mattos, C.,
+      Allosteric effects of RasQ61L oncogenic mutation on Raf-RBD, in press (2015).
+unpublished:
+  - content: >
+      Parker, J. and Mattos, C.,
+      The Ras-membrane interface: isoform-specific differences in the catalytic domain, submitted.
+  - content: >
+      Marcus, K. and Mattos, C.,
+      Direct attack on Ras: Targeting Communication Pathways and Mutation-specific Effects, submitted.
+  - content: >
+      Knihtila, R., Holzapfel, G., Weiss, K., Meilleur, F. and Mattos, C.
+      Neutron crystal structure of Ras-GTPase sets new paradigm for GTP hydrolysis, submitted.
+  - content: >
+      Ting, P., Johnson, C., Mattos, C. and Colicelli, J.,
+      ABL phosphorylation of HRAS alters intrinsic hydrolysis and effector binding, in preparation.

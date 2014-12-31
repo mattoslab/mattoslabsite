@@ -2,21 +2,32 @@ body {
   font-family: georgia;
 }
 
-h1 {
+.northeastern {
   color: #cb0013;
 }
 
-footer{
-  border-top: 1px solid #ddd;
-  background-color: #e7e7e7;
-  color: #333;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  padding: 20px;
+html, body {
+  height: 100%;
 }
 
-.false-footer {
-  margin-bottom: 80px;
+.page-content {
+  min-height: 100%;
+  margin-bottom: -120px;
+}
+
+.page-content:after {
+  content: '';
+  display: block;
   clear: both;
+}
+
+footer, .page-content:after {
+  height: 120px;
+}
+
+footer {
+  border-top: 1px solid #e7e7e7;
+  background-color: #f8f8f8;
+  width: 100%;
+  padding: 20px;
 }

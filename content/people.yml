@@ -1,20 +1,21 @@
 pi:
   name: Carla Mattos
   photo_src: carla.png
-  description: I'm the boss.
+  description: |
+    *Principal Investigator*
 
 grad_students:
+  - name: Tim Colussi
+  - name: Hugo Guterres
   - name: Christian Johnson
-  - name: Derion Reid
-  - name: Alicia Orteiz
-  - name: Hugo Guterrez
   - name: Ryan Knihtila
   - name: Kendra Marcus
+  - name: Alicia Ortiz
   - name: Jillian Parker
-  - name: Tim Colussi
+  - name: Derion Reid
 
 undergrads:
   - name: Patrick Donohue
   - name: Bakar Hassan
   - name: Alvaro Lanao
-  - name: T
+  - name: Shores Salter

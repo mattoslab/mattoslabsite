@@ -1,9 +1,6 @@
 {% extends 'templates/base.html.j2' %}
 {% block content %}
 
-<div class="clearfix"></div>
-<h2>Principal Investigator</h2>
-
 {% with %}
   {% set member = lab_members.pi %}
   {% include 'partial/labmember.html.j2' %}

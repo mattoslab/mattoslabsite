@@ -20,8 +20,12 @@ class FileSystemContentLoader(object):
         self.root = root
 
     def __getitem__(self, item):
-        with open(os.path.join(self.root, '{}.yml'.format(item))) as f:
-            return yaml.load(f)
+        for suffix, transform in [('yml', yaml.load), ('md', markdown.markdown)]:
+            try:
+                with open(os.path.join(self.root, '{}.{}'.format(item, suffix))) as f:
+                    return transform(f.read())
+            except IOError:
+                pass
 
 CONTENT = FileSystemContentLoader('content')
 
@@ -36,6 +40,9 @@ PAGE_CONTEXT = {
     },
     'publications.html': {
         'publications': CONTENT['publications'],
+    },
+    'home.html': {
+        'home_content': CONTENT['home_content']
     }
 }
 

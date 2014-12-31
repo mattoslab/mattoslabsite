@@ -1,4 +1,4 @@
-<div class="col-sm-4 col-md-3">
+<div class="col-md-3">
   <div class="thumbnail">
     {% if member.photo_src %}
     <img src="static/images/students/{{ member.photo_src }}" alt="{{ member.name }}">
@@ -7,7 +7,7 @@
     {% endif %}
     <div class="caption">
       <h3>{{ member.name }}</h3>
-      <p>{{ member.description }}</p>
+      {% if member.description %}{{ member.description|markdown }}{% endif %}
     </div>
   </div>
 </div>
