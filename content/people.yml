@@ -6,18 +6,40 @@ pi:
 
 grad_students:
   - name: Tim Colussi
+    photo: null
+    description: null
   - name: Hugo Guterres
     photo: hugo.jpg
+    description: null
   - name: Christian Johnson
+    photo: null
+    description: null
   - name: Ryan Knihtila
+    photo: null
+    description: null
   - name: Kendra Marcus
+    photo: null
+    description: null
   - name: Alicia Ortiz
+    photo: null
+    description: null
   - name: Jillian Parker
+    photo: null
+    description: null
   - name: Derion Reid
+    photo: null
+    description: null
 
 undergrads:
   - name: Patrick Donohue
+    photo: null
+    description: null
   - name: Bakar Hassan
     photo: bakar.jpg
+    description: null
   - name: Alvaro Lanao
+    photo: null
+    description: null
   - name: Shores Salter
+    photo: null
+    description: null

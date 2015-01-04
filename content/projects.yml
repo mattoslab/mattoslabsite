@@ -1,4 +1,5 @@
 - name:  Wild Type HRas
+  short_name: Wild Type HRas
   id: project-1
   content: |
     1. Allosteric switch mechanism of intrinsic hydrolysis
