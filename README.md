@@ -6,7 +6,7 @@ The idea is that you can edit some .yml files that contain the content
 and then run `python make.py`, and the finished html files, css, images, etc.
 will appear under the `build/` directory.
 
-## Setting up a develpoment environment
+## Setting up a development environment
 
 To make edits and test on your computer, make sure you have the following installed:
 
