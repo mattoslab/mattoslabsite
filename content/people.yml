@@ -9,13 +9,13 @@ grad_students:
     photo: null
     description: null
   - name: Hugo Guterres
-    photo: hugo.jpg
+    photo: hugo2.JPG
     description: null
   - name: Christian Johnson
     photo: null
     description: null
   - name: Ryan Knihtila
-    photo: null
+    photo: ryan.jpg
     description: null
   - name: Kendra Marcus
     photo: null
@@ -24,7 +24,7 @@ grad_students:
     photo: null
     description: null
   - name: Jillian Parker
-    photo: null
+    photo: jillian.jpg
     description: null
   - name: Derion Reid
     photo: null
