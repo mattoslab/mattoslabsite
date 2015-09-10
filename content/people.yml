@@ -4,10 +4,12 @@ pi:
   description: |
     *Principal Investigator*
 
-grad_students:
+associate_research_scientist:
   - name: Tim Colussi
     photo: tim.jpg
     description: null
+
+grad_students:
   - name: Hugo Guterres
     photo: hugo2.JPG
     description: null

@@ -7,6 +7,13 @@
 {% endwith %}
 
 <div class="clearfix"></div>
+<h2>Associate Research Scientist</h2>
+
+{% for member in lab_members.associate_research_scientist %}
+  {% include 'partial/labmember.html.j2' %}
+{% endfor %}
+
+<div class="clearfix"></div>
 <h2>Graduate Students</h2>
 
 {% for member in lab_members.grad_students %}
