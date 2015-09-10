@@ -6,13 +6,13 @@ pi:
 
 grad_students:
   - name: Tim Colussi
-    photo: null
+    photo: tim.jpg
     description: null
   - name: Hugo Guterres
     photo: hugo2.JPG
     description: null
   - name: Christian Johnson
-    photo: null
+    photo: christian.jpg
     description: null
   - name: Ryan Knihtila
     photo: ryan.jpg
